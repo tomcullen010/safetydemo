@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>safety_issues_flow</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger➛Issue Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"b7509841-5c4a-4823-9388-d6216d08de3d.email","label":"4.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Issue Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_172976_safety_ix_issue","column_name":"number"},{"name":"Created or Updated_1.current.opened_by.manager.manager","label":"Trigger➛Issue Record➛Opened by➛Manager➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"ffe22c0e-3fb8-451a-9dbe-caa988ba9dbc.email","label":"3.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.category","label":"Trigger➛Issue Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_172976_safety_ix_issue","column_name":"category"},{"name":"Created or Updated_1.current.opened_by","label":"Trigger➛Issue Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_172976_safety_ix_issue","column_name":"opened_by"},{"name":"d6a51469-2b21-4dca-bc72-b0719e6f6f48.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger➛Issue Record","reference":"x_172976_safety_ix_issue","reference_display":"Issue","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Safety Issues Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 16:19:11</sys_created_on>
+        <sys_id>ddb33d7d4fa23300a9c2224f9310c706</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Safety Issues Flow</sys_name>
+        <sys_package display_value="Safety IssuesX" source="x_172976_safety_ix">ee6eedf14fa23300a9c2224f9310c785</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety IssuesX">ee6eedf14fa23300a9c2224f9310c785</sys_scope>
+        <sys_update_name>sys_hub_flow_ddb33d7d4fa23300a9c2224f9310c706</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 16:40:05</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ddb33d7d4fa23300a9c2224f9310c706"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ddb33d7d4fa23300a9c2224f9310c706"/>
+</record_update>

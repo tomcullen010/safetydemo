@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Safety Issues Flow">ddb33d7d4fa23300a9c2224f9310c706</flow>
+        <order>4.1</order>
+        <parent_ui_id>d0e731c0-5d19-435a-8c8b-9fd2ba1775fd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 16:38:34</sys_created_on>
+        <sys_id>5928b1714fe23300a9c2224f9310c7ab</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety IssuesX" source="x_172976_safety_ix">ee6eedf14fa23300a9c2224f9310c785</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety IssuesX">ee6eedf14fa23300a9c2224f9310c785</sys_scope>
+        <sys_update_name>sys_hub_action_instance_5928b1714fe23300a9c2224f9310c7ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 16:40:06</sys_updated_on>
+        <ui_id>b7509841-5c4a-4823-9388-d6216d08de3d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5928b1714fe23300a9c2224f9310c7ab"/>
+    <sys_element_mapping action="delete_multiple" query="id=5928b1714fe23300a9c2224f9310c7ab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>5928b1714fe23300a9c2224f9310c7ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 16:38:34</sys_created_on>
+        <sys_id>9128b1714fe23300a9c2224f9310c7bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 16:38:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created or Updated_1.current.opened_by}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>5928b1714fe23300a9c2224f9310c7ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 16:38:34</sys_created_on>
+        <sys_id>dd28b1714fe23300a9c2224f9310c7bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 16:38:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created or Updated_1.current.opened_by.manager}}</value>
+    </sys_element_mapping>
+</record_update>

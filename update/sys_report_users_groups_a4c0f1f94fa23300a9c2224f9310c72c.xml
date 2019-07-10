@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Safety Map">acc0f1f94fa23300a9c2224f9310c72b</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 16:06:18</sys_created_on>
+        <sys_id>a4c0f1f94fa23300a9c2224f9310c72c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acc0f1f94fa23300a9c2224f9310c72b</sys_name>
+        <sys_package display_value="Safety IssuesX" source="x_172976_safety_ix">ee6eedf14fa23300a9c2224f9310c785</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety IssuesX">ee6eedf14fa23300a9c2224f9310c785</sys_scope>
+        <sys_update_name>sys_report_users_groups_a4c0f1f94fa23300a9c2224f9310c72c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 16:06:18</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>
